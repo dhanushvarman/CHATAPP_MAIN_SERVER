@@ -11,7 +11,7 @@ const connectMongoose = async(req,res,next)=>{
 }
 
 const url = {
-    api : "http://localhost:3001"
+    api : "https://chatapp-react-weld.vercel.app"
 }
 
 module.exports = {connectMongoose ,url };
